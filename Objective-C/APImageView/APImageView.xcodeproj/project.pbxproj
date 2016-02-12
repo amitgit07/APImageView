@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB44864E1C69DE9100D1A712 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB44864D1C69DE9100D1A712 /* main.m */; };
+		AB4486511C69DE9100D1A712 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4486501C69DE9100D1A712 /* AppDelegate.m */; };
+		AB4486541C69DE9100D1A712 /* APImageView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB4486521C69DE9100D1A712 /* APImageView.xcdatamodeld */; };
+		AB4486571C69DE9100D1A712 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4486561C69DE9100D1A712 /* MasterViewController.m */; };
+		AB44865D1C69DE9100D1A712 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB44865B1C69DE9100D1A712 /* Main.storyboard */; };
+		AB44865F1C69DE9100D1A712 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB44865E1C69DE9100D1A712 /* Assets.xcassets */; };
+		AB4486621C69DE9100D1A712 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB4486601C69DE9100D1A712 /* LaunchScreen.storyboard */; };
+		AB44866C1C69E69C00D1A712 /* APImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB44866B1C69E69C00D1A712 /* APImageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB4486491C69DE9100D1A712 /* APImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB44864D1C69DE9100D1A712 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB44864F1C69DE9100D1A712 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB4486501C69DE9100D1A712 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB4486531C69DE9100D1A712 /* APImageView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = APImageView.xcdatamodel; sourceTree = "<group>"; };
+		AB4486551C69DE9100D1A712 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		AB4486561C69DE9100D1A712 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		AB44865C1C69DE9100D1A712 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB44865E1C69DE9100D1A712 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB4486611C69DE9100D1A712 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB4486631C69DE9100D1A712 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB44866A1C69E69C00D1A712 /* APImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APImageView.h; path = APImageView/APImageView.h; sourceTree = "<group>"; };
+		AB44866B1C69E69C00D1A712 /* APImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APImageView.m; path = APImageView/APImageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB4486461C69DE9100D1A712 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB4486401C69DE9100D1A712 = {
+			isa = PBXGroup;
+			children = (
+				AB44864B1C69DE9100D1A712 /* APImageView */,
+				AB44864A1C69DE9100D1A712 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB44864A1C69DE9100D1A712 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB4486491C69DE9100D1A712 /* APImageView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB44864B1C69DE9100D1A712 /* APImageView */ = {
+			isa = PBXGroup;
+			children = (
+				AB4486691C69E66700D1A712 /* APImageView */,
+				AB44864F1C69DE9100D1A712 /* AppDelegate.h */,
+				AB4486501C69DE9100D1A712 /* AppDelegate.m */,
+				AB4486551C69DE9100D1A712 /* MasterViewController.h */,
+				AB4486561C69DE9100D1A712 /* MasterViewController.m */,
+				AB44865B1C69DE9100D1A712 /* Main.storyboard */,
+				AB44865E1C69DE9100D1A712 /* Assets.xcassets */,
+				AB4486601C69DE9100D1A712 /* LaunchScreen.storyboard */,
+				AB4486631C69DE9100D1A712 /* Info.plist */,
+				AB4486521C69DE9100D1A712 /* APImageView.xcdatamodeld */,
+				AB44864C1C69DE9100D1A712 /* Supporting Files */,
+			);
+			path = APImageView;
+			sourceTree = "<group>";
+		};
+		AB44864C1C69DE9100D1A712 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB44864D1C69DE9100D1A712 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB4486691C69E66700D1A712 /* APImageView */ = {
+			isa = PBXGroup;
+			children = (
+				AB44866A1C69E69C00D1A712 /* APImageView.h */,
+				AB44866B1C69E69C00D1A712 /* APImageView.m */,
+			);
+			name = APImageView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB4486481C69DE9100D1A712 /* APImageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB4486661C69DE9100D1A712 /* Build configuration list for PBXNativeTarget "APImageView" */;
+			buildPhases = (
+				AB4486451C69DE9100D1A712 /* Sources */,
+				AB4486461C69DE9100D1A712 /* Frameworks */,
+				AB4486471C69DE9100D1A712 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APImageView;
+			productName = APImageView;
+			productReference = AB4486491C69DE9100D1A712 /* APImageView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB4486411C69DE9100D1A712 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = AFAI;
+				TargetAttributes = {
+					AB4486481C69DE9100D1A712 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = AB4486441C69DE9100D1A712 /* Build configuration list for PBXProject "APImageView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB4486401C69DE9100D1A712;
+			productRefGroup = AB44864A1C69DE9100D1A712 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB4486481C69DE9100D1A712 /* APImageView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB4486471C69DE9100D1A712 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB4486621C69DE9100D1A712 /* LaunchScreen.storyboard in Resources */,
+				AB44865F1C69DE9100D1A712 /* Assets.xcassets in Resources */,
+				AB44865D1C69DE9100D1A712 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB4486451C69DE9100D1A712 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB4486571C69DE9100D1A712 /* MasterViewController.m in Sources */,
+				AB4486511C69DE9100D1A712 /* AppDelegate.m in Sources */,
+				AB4486541C69DE9100D1A712 /* APImageView.xcdatamodeld in Sources */,
+				AB44866C1C69E69C00D1A712 /* APImageView.m in Sources */,
+				AB44864E1C69DE9100D1A712 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB44865B1C69DE9100D1A712 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB44865C1C69DE9100D1A712 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB4486601C69DE9100D1A712 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB4486611C69DE9100D1A712 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB4486641C69DE9100D1A712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB4486651C69DE9100D1A712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB4486671C69DE9100D1A712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = APImageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = amitgit07.APImageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB4486681C69DE9100D1A712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = APImageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = amitgit07.APImageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB4486441C69DE9100D1A712 /* Build configuration list for PBXProject "APImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB4486641C69DE9100D1A712 /* Debug */,
+				AB4486651C69DE9100D1A712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB4486661C69DE9100D1A712 /* Build configuration list for PBXNativeTarget "APImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB4486671C69DE9100D1A712 /* Debug */,
+				AB4486681C69DE9100D1A712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AB4486521C69DE9100D1A712 /* APImageView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AB4486531C69DE9100D1A712 /* APImageView.xcdatamodel */,
+			);
+			currentVersion = AB4486531C69DE9100D1A712 /* APImageView.xcdatamodel */;
+			path = APImageView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AB4486411C69DE9100D1A712 /* Project object */;
+}
